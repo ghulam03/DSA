@@ -4,7 +4,6 @@
 
 class Solution {
     public int longestkSubstr(String s, int k) {
-        // code here
         int i=0,j=0;
         int max=Integer.MIN_VALUE;
         Map<Character,Integer> map=new HashMap<>();
@@ -21,7 +20,6 @@ class Solution {
             if(map.size()==k)
             {
                 max=Math.max(max,j-i+1);
-              //  j++;
             }
             else if(map.size()>k)
             {
@@ -34,7 +32,6 @@ class Solution {
                          }
                     i++;
                 }
-             //   j++;
             }
             j++;
         }
