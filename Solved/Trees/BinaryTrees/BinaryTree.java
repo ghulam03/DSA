@@ -1,5 +1,10 @@
 //q1 Create BT using Node
 //q2 Display Node Of BT
+/*
+      --->4
+5--->6
+      -->5
+*/
 
 
 import java.util.Scanner;
