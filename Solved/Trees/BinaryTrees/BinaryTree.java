@@ -6,6 +6,10 @@
       -->5
 */
 
+//q3 preOrder Traversal
+//q4 inOrder Traversal
+//q5 postOrder Traversal
+
 
 import java.util.Scanner;
 
