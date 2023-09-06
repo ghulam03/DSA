@@ -1,5 +1,5 @@
 //q https://leetcode.com/problems/count-complete-tree-nodes/
-
+//concept from perfect BT
 import java.util.*;
 
 class Node {
