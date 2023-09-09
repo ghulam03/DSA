@@ -15,11 +15,13 @@ class TreeNode {
 //utility function to insert node in the list
 class TUF {
   static TreeNode buildTree(int[] preorder, int[] inorder) {
+    //to get root value index  in inorder array
     Map < Integer, Integer > inMap = new HashMap < Integer, Integer > ();
 
     for (int i = 0; i < inorder.length; i++) {
       inMap.put(inorder[i], i);
     }
+    //
 
     TreeNode root = buildTree(preorder, 0, preorder.length - 1, inorder, 0, 
     inorder.length - 1, inMap);
