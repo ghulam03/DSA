@@ -1,5 +1,7 @@
 //Threaded Binary tree
 //for only in-order and pre-order
+//time complexity=O(n)+O(n)(O(n)=>amortized for threading)
+//space complexity=O(1)
 
 //in-order
 class Solution {
